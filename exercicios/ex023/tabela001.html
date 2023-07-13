@@ -12,19 +12,25 @@
         }
 
         table{
-            width: 300px;
+            height: 400px;
+            width: 400px;
             border-collapse: collapse;
+            
 
         }
 
-        tr{
-            background-color: gray;
-        }
+        
 
         td{
             border: 1px solid black;
-            padding: 8px;            
+            padding: 8px; 
+            vertical-align: top; /*Alinhamento vertical*/
+            text-align: center;  /* Alinhamento horizontal*/        
 
+        }
+
+        .numero{
+            text-align: right;
         }
 
 
@@ -49,7 +55,7 @@
 
         <tr> <!-- Primeira linha-->
 
-            <td>A1</td>
+            <td class="numero">A1</td>
             <td>B1</td>
             <td>C1</td>
 
